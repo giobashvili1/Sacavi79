@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "fonti";
+    src: url(./fonts/Outfit-Bold.ttf);
+}
+@font-face{
+    font-family: "fonti2";
+    src: url(./fonts/Outfit-Thin.ttf);
+}
+body{
+    display: flex;
+    
+    padding: 152px 0px 151px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Dark-Navy, #1F314F);
+}
+.container{
+    width: 320px;
+    height: 497px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.card{
+    width: 288px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #1F314F;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-image: url(./img/qr-code.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h3{
+    color: var(--Dark-Navy, #1F314F);
+    text-align: center;
+   
+    font-family: "fonti";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p{
+    color: var(--Grey, #7D889E);
+    text-align: center;
+    
+    font-family:"fonti2";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.188px;
+}
